@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#greeting {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+textarea{
+    width: fit-content;
+
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 100%;
+        margin: 0 10px;
+    }
+}
